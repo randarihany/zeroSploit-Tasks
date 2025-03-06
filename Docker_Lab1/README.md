@@ -6,11 +6,11 @@ Test it by accessing the application in a browser.
 ---
 ### Step 1: Create a Simple Python Backend App and HTML
 
-- **Create backend directory structure:**
+-**Create backend directory structure:**
 
 ![image](https://github.com/user-attachments/assets/faefc2cd-f250-459b-9c06-d8143969b7fa)
 
-- **Create the Python App (app.py) and HTML files:**
+-**Create the Python App (app.py) and HTML files:**
 
 Create a file named app.py inside the backend directory. 
 This file will contain the code for a simple Flask application that serves different endpoints, performs a simple computation, and renders an HTML template.
