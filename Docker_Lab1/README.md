@@ -18,9 +18,14 @@ This file will contain the code for a simple Flask application that serves diffe
 
 The templates directory will contain three HTML files that correspond to the different pages.
 
+GO TO: Docker_Lab1/backend/  & Docker_Lab1/backend/templates
+
 ### Step 2: Create the Dockerfile
 Inside the same directory (python-backend/)
 - **Write the Dockerfile**
+
+GO TO: Docker_Lab1/backend/Dockerfile
+
 - **Build the Docker Image from Dockerfile**
 
 ```
