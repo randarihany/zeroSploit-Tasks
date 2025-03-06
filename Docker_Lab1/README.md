@@ -40,7 +40,9 @@ Output is a custom image created with name python-backend:
 docker network create --driver bridge bridge-network-2
 docker network ls
 ```
+
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/65f4f883-cbac-4ddb-a0aa-6357cfa98afb)
 
 ![image](https://github.com/user-attachments/assets/c9783619-58f7-404c-971d-09de5d4e0751)
