@@ -17,7 +17,7 @@ This file will contain the code for a simple Flask application that serves diffe
 
 The templates directory will contain three HTML files that correspond to the different pages.
 
-### Create the Dockerfile
+### Step 2: Create the Dockerfile
 Inside the same directory (python-backend/)
 - **Write the Dockerfile**
 - **Build the Docker Image from Dockerfile**
@@ -34,7 +34,7 @@ Output is a custom image created with name python-backend:
 ![image](https://github.com/user-attachments/assets/6e34e8a6-a63f-4f14-9d55-2c4724487cc2)
 
 
-- **Create a Custom Bridge Network**
+- **Step 3: Create a Custom Bridge Network**
 ```
 docker network create --driver bridge bridge-network-2
 docker network ls
@@ -46,7 +46,7 @@ docker network ls
 
 ![image](https://github.com/user-attachments/assets/c9783619-58f7-404c-971d-09de5d4e0751)
 
-- **Create the Docker Container**
+- **Step 4: Create the Docker Container**
 Run the container from the image(python-backend)  built and connect it to the custom bridge network created. 
 
 ```
@@ -60,7 +60,7 @@ docker run -d --name pythonbackend-container --network bridge-network-2 -p 5055:
 
 **Test the app**
 
-Check local IP:
+- Check local IP:
 ```
 ip a
 ```
@@ -68,19 +68,19 @@ ip a
 
 **Output:**
 
-**Home page:**
+- **Home page:**
 
 ![image](https://github.com/user-attachments/assets/699f3905-9f93-4b49-850a-5e40ed002a3a)
 
-**multiply page:**
+- **multiply page:**
 
 ![image](https://github.com/user-attachments/assets/124e27c7-e4fe-4b8c-8bbb-55098b55941a)
 
-**multiply page result:**
+- **multiply page result:**
 
 ![image](https://github.com/user-attachments/assets/17abdd75-aae0-437c-959d-81a3bb9cd9aa)
 
-**About page:**
+- **About page:**
 
 ![image](https://github.com/user-attachments/assets/cfb77846-b941-45fe-bb6f-7c408786bf2e)
 
