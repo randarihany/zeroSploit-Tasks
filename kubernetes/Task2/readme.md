@@ -28,3 +28,8 @@ k8s-mongo-express/
 ![image](https://github.com/user-attachments/assets/1a544489-5150-4b34-b457-bdcd5fef72e8)
 
 
+
+![image](https://github.com/user-attachments/assets/f9e70cbe-dbba-4646-a029-c7c792728018)
+
+
+
